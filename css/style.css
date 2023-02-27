@@ -1,0 +1,44 @@
+.bg-main {
+  background-color: #17376e !important;
+}
+.text-main,
+.card-title {
+  color: #17376e !important;
+}
+
+.nav-border-color {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+.bg-dark2 {
+  background-color: #091831 !important;
+}
+.radius-grd-dark {
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.bg-gray {
+  background-color: #e0e0e0 !important;
+}
+
+.n-decoration {
+  text-decoration: none !important;
+}
+
+.line-h-1-75 {
+  line-height: 1.75rem;
+}
+
+.cap-case {
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar-brand img {
+    width: 220px;
+    margin: 0px !important;
+  }
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
