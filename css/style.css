@@ -41,4 +41,7 @@
     padding-left: 0;
     padding-right: 0;
   }
+  .nav-border-color {
+    border-color: transparent !important;
+  }
 }
